@@ -26,8 +26,10 @@ public class PlayerProjectile : MonoBehaviour
 
     void SpawnHitEffects()
     {
+        if (hitFX != null)
+        {
             GameObject newhitFX = Instantiate(hitFX, transform.position, Quaternion.identity);
-        
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
