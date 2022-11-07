@@ -153,7 +153,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.002907753, y: -0.09}
+  m_Offset: {x: 0.0010182261, y: -0.0743378}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -164,7 +164,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.17825246, y: 0.03630157}
+  m_Size: {x: 0.11076939, y: 0.021179333}
   m_EdgeRadius: 0
 --- !u!50 &1983746832
 Rigidbody2D:
@@ -213,8 +213,10 @@ MonoBehaviour:
   staminaRecoverySpeed: 0.5
   dashStaminaCost: 30
   runningStaminaCost: 2
-  leastStaminaToRun: 10
+  lowestStaminaToRun: 10
   recoveringFromZeroStamina: 0
+  maxMana: 100
+  _currentMana: 0
   invulnerableTimeWindow: 0.2
   mouseDirection: {x: -0.679042, y: -0.7340994, z: 0}
   isFacingRight: 0
