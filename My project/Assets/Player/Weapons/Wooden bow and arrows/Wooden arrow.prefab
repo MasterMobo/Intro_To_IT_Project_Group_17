@@ -136,5 +136,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd1c76c08f85bd640b8a1febc03f5cda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weapon: {fileID: 0}
+  isRotated: 0
+  weapon: {fileID: 5972060633311588137, guid: 2231eccad33c29c46ba91f9919e3e887, type: 3}
   hitFX: {fileID: 731396632044120120, guid: 02b971da93345694eb6b1886066fc198, type: 3}

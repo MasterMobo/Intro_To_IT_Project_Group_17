@@ -101,7 +101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isRotated: 1
-  weapon: {fileID: 4065264704966250340, guid: 4e41e0a272508c9449bf5bcee93b8740, type: 3}
+  weapon: {fileID: 3448004418730520806, guid: 4e41e0a272508c9449bf5bcee93b8740, type: 3}
   hitFX: {fileID: 3054934042596867214, guid: 833836a58f3414341b9a239d2ccad036, type: 3}
 --- !u!50 &-3982186110352017397
 Rigidbody2D:

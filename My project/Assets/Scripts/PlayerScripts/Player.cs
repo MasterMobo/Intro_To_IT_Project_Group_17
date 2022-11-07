@@ -28,6 +28,7 @@ public class Player : DamageableCharacter
     public float lowestStaminaToRun = 10f; // The lowest amount of stamina in order for the character to run (to prevent infinite running)
     public bool recoveringFromZeroStamina = false;
 
+
     public float currentStamina
     {
         set
@@ -47,6 +48,31 @@ public class Player : DamageableCharacter
             return _currentStamina;
         }
     }
+
+
+    public float maxMana = 100f;
+    public float _currentMana;
+
+    public float currentMana
+    {
+        set
+        {
+            _currentMana = value;
+            if (_currentMana > maxMana)
+            {
+                _currentMana = maxMana;
+            }
+            else if (_currentMana < 0)
+            {
+                _currentMana = 0;
+            }
+        }
+        get
+        {
+            return _currentMana;
+        }
+    }
+
 
     public float invulnerableTimeWindow = 0.7f;
     float invulnerableTimeElapsed = 0f;
@@ -80,6 +106,7 @@ public class Player : DamageableCharacter
 
         InitializeHealth();
         currentStamina = maxStamina;
+        currentMana = maxMana;
     }
 
 

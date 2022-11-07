@@ -8,7 +8,7 @@ public class PlayerProjectile : MonoBehaviour
     float aliveTimeElapsed = 0;
     int currentPassThrough = 0;
     public bool isRotated;
-    public RangedWeapon weapon;
+    public Weapon weapon;
     public GameObject hitFX;
 
     private void Start()

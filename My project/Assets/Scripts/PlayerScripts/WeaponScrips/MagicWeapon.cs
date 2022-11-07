@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RangedWeapon : Weapon
+public class MagicWeapon : Weapon
 {
     public float fireForce;
-    
+    public float manaCost;
 
     public GameObject projectile;
 
@@ -33,13 +33,14 @@ public class RangedWeapon : Weapon
 
     public override void Attack()
     {
-        if (!isCoolingDown && player.isAlive)
+        if (!isCoolingDown && player.isAlive && player.currentMana >= manaCost)
         {
+
             // Make new projectile
             GameObject newProjectile = Instantiate(projectile, transform.position, transform.rotation);
 
             // Set the projectile's weapon to this weapon (to pass down weapon stats)
-            newProjectile.GetComponent<PlayerProjectile>().weapon = GetComponent<RangedWeapon>();
+            newProjectile.GetComponent<PlayerProjectile>().weapon = GetComponent<MagicWeapon>();
 
             // Get the rigid body component of the new projectile and add a force to it
             Rigidbody2D newProjectileBody = newProjectile.GetComponent<Rigidbody2D>();
@@ -52,7 +53,8 @@ public class RangedWeapon : Weapon
             }
 
             isCoolingDown = true;
+            player.currentMana -= manaCost;
+            
         }
     }
 }
-
