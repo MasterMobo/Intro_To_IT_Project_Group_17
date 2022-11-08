@@ -33,7 +33,7 @@ public class MagicWeapon : Weapon
 
     public override void Attack()
     {
-        if (!isCoolingDown && player.isAlive && player.currentMana >= manaCost)
+        if (!isCoolingDown && player.isAlive && player.playerState.currentMana >= manaCost)
         {
 
             // Make new projectile
@@ -53,7 +53,7 @@ public class MagicWeapon : Weapon
             }
 
             isCoolingDown = true;
-            player.currentMana -= manaCost;
+            player.playerState.currentMana -= manaCost;
             
         }
     }

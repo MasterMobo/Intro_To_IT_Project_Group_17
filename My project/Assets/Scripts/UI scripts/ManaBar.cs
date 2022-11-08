@@ -12,12 +12,12 @@ public class ManaBar : MonoBehaviour
     {
         healthSlider = GetComponent<Slider>();
         player = GameObject.FindWithTag("Player").GetComponent<Player>();
-        healthSlider.maxValue = player.maxMana;
+        healthSlider.maxValue = player.playerState.maxMana;
         healthSlider.value = healthSlider.maxValue;
     }
 
     private void Update()
     {
-        healthSlider.value = player.currentMana;
+        healthSlider.value = player.playerState.currentMana;
     }
 }

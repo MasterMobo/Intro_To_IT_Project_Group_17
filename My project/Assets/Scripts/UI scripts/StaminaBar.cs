@@ -11,12 +11,12 @@ public class StaminaBar : MonoBehaviour
     {
         healthSlider = GetComponent<Slider>();
         player = GameObject.FindWithTag("Player").GetComponent<Player>();
-        healthSlider.maxValue = player.maxStamina;
+        healthSlider.maxValue = player.playerState.maxStamina;
         healthSlider.value = healthSlider.maxValue;
     }
 
     private void Update()
     {
-        healthSlider.value = player.currentStamina;
+        healthSlider.value = player.playerState.currentStamina;
     }
 }
