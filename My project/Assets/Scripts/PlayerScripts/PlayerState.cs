@@ -5,7 +5,7 @@ using UnityEngine;
 // This script handles player state (invunerability, stamina, mana)
 public class PlayerState : MonoBehaviour
 {
-    Player player;
+    public Player player;
 
     public float maxStamina = 100f;
     public float _currentStamina;
@@ -68,8 +68,6 @@ public class PlayerState : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = GetComponent<Player>();
-
         currentStamina = maxStamina;
         currentMana = maxMana;
     }

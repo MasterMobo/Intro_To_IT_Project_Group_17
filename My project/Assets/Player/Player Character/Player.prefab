@@ -227,6 +227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b995fae36bb09544b3c0a5ea555228a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 4806166876373576386}
   movementInput: {x: 0, y: 0}
   isRunningPressed: 0
   isDashingPressed: 0
@@ -242,11 +243,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd5a6fe3eade26440983e99d2a106de2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 4806166876373576386}
   walkingSpeed: 10
-  runningSpeed: 20
+  runningSpeed: 15
   maxMovementSpeed: 20
   dashForce: 200
-  dashTimeWindow: 0.015
+  dashTimeWindow: 0.1
   dashTimeElapsed: 0
   movementLocked: 0
 --- !u!114 &487947434225980394
@@ -261,6 +263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 709a052e797b3ec4390ecd682e5c18b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 4806166876373576386}
   maxStamina: 100
   _currentStamina: 100
   staminaRecoverySpeed: 0.5

@@ -7,17 +7,13 @@ using UnityEngine.InputSystem;
 
 public class PlayerInput : MonoBehaviour
 {
-    Player player;
+    public Player player;
 
     public Vector2 movementInput;// This is the input vector, a unit vector representing the direction of the input (-1 <= x <= 1; -1 <= y <= 1)
 
     public bool isRunningPressed = false;
     public bool isDashingPressed = false;
 
-    void Start()
-    {
-        player = GetComponent<Player>();
-    }
 
     //====================================================================
     // Update is called every frame (To get player input)
@@ -38,7 +34,8 @@ public class PlayerInput : MonoBehaviour
 
         if (Keyboard.current.spaceKey.wasPressedThisFrame)
         {
-            isDashingPressed = true;
+                isDashingPressed = true;
+           
         }
     }
 
@@ -72,12 +69,8 @@ public class PlayerInput : MonoBehaviour
     public void ResetPressedValues()
     {
         isRunningPressed = false;
-
-        if (player.playerMovement.dashTimeElapsed > player.playerMovement.dashTimeWindow)
-        {
             isDashingPressed = false;
-            player.playerMovement.dashTimeElapsed = 0f;
-        }
+
 
     }
 }

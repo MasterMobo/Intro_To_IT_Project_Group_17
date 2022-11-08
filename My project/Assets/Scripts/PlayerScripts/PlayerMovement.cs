@@ -5,7 +5,7 @@ using UnityEngine;
 //This script handles all the movement (walking, running, dashing) 
 public class PlayerMovement : MonoBehaviour
 {
-    Player player;
+    public Player player;
 
     public float walkingSpeed = 3f;
     public float runningSpeed = 5f;
@@ -16,10 +16,6 @@ public class PlayerMovement : MonoBehaviour
     public bool movementLocked = false;
 
     // Start is called before the first frame update
-    void Start()
-    {
-        player = GetComponent<Player>();
-    }
 
 
     public void LockMovement()

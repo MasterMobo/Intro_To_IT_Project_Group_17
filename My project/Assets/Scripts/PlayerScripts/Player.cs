@@ -83,15 +83,13 @@ public class Player : DamageableCharacter
                     body.AddForce(playerInput.movementInput * playerMovement.walkingSpeed);
                     animator.speed = 1;
                 }
-
+               
 
                 // If SPACE was pressed during movement input, dash in the direction of movement input
                 if (playerInput.isDashingPressed && playerState.currentStamina >= playerState.dashStaminaCost)
                 {
-                    body.velocity += playerInput.movementInput * playerMovement.dashForce * Time.fixedDeltaTime;
+                    body.AddForce(playerInput.movementInput * playerMovement.dashForce);
                     playerState.currentStamina -= playerState.dashStaminaCost;
-                    playerMovement.dashTimeElapsed += Time.fixedDeltaTime;
-                    
                 }
 
                 // Restrain the velocity
