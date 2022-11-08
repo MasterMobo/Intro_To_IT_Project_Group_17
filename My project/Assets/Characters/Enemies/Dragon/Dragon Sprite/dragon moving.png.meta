@@ -1,0 +1,475 @@
+fileFormatVersion: 2
+guid: 7ecb3b35a6ca96c4e888c6430c0f9828
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dragon moving_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 101
+        width: 115
+        height: 94
+      alignment: 9
+      pivot: {x: 0.5996264, y: 0.5369545}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56120c35204d00a4cbc4f997d4f27ea0
+      internalID: -510030606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon moving_1
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 101
+        width: 148
+        height: 112
+      alignment: 9
+      pivot: {x: 0.69914454, y: 0.572293}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59d21fb89c969b4dab26cf128e240b7
+      internalID: 1330105207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon moving_2
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 101
+        width: 173
+        height: 120
+      alignment: 9
+      pivot: {x: 0.7007402, y: 0.5078219}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240f9869d863a134da1daa980465b50d
+      internalID: 1309534542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon moving_3
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 109
+        width: 180
+        height: 96
+      alignment: 9
+      pivot: {x: 0.6636393, y: 0.6342127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111aac35f270f8a479d26146b93d9e2c
+      internalID: 585177762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon moving_4
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 121
+        width: 178
+        height: 85
+      alignment: 9
+      pivot: {x: 0.6634635, y: 0.5331272}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da30daeadafd01419670433ba9d22fe
+      internalID: -726571991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon moving_5
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 107
+        width: 184
+        height: 129
+      alignment: 9
+      pivot: {x: 0.6428299, y: 0.31082556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389df53e5dd74dd4ab8297d5e2fe2b64
+      internalID: -60140770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon moving_6
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 113
+        width: 141
+        height: 100
+      alignment: 9
+      pivot: {x: 0.6531039, y: 0.5657019}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729fdb010e2b67347bc15117735443f3
+      internalID: 2137302015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon moving_7
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 107
+        width: 146
+        height: 107
+      alignment: 9
+      pivot: {x: 0.6350031, y: 0.5087721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3125f8705df3c2f4e866d7dd38a4649b
+      internalID: 297058983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon moving_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 114
+        height: 96
+      alignment: 9
+      pivot: {x: 0.6234996, y: 0.59777105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc910d1b86531b41a60d2bc913c6074
+      internalID: 748576689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon moving_9
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 2
+        width: 140
+        height: 89
+      alignment: 9
+      pivot: {x: 0.53831005, y: 0.58891994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d106c7e139b6fb43a41a0aae648829a
+      internalID: 1988755509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon moving_10
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 0
+        width: 127
+        height: 95
+      alignment: 9
+      pivot: {x: 0.5886862, y: 0.55928004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7a7f6f60fd5964f893df498a1eeaf8
+      internalID: -99653577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon moving_11
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0.5
+        width: 160.5
+        height: 119.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8d2b5f43a77a04c9c0595af00e8454
+      internalID: 954063793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon moving_12
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0.5
+        width: 160.5
+        height: 119.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc755c5fe0d60c4286184863a6657af
+      internalID: -9608559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon moving_13
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0.5
+        width: 160.5
+        height: 119.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503a6f172963aa349b6db618684c5555
+      internalID: -1574678736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon moving_14
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0.5
+        width: 160.5
+        height: 119.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4764ca294c2d110479aa930130e5ec22
+      internalID: -1513836216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon moving_15
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 0.5
+        width: 160.5
+        height: 119.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23aa2b38581d13d4d8290b648d2f03e0
+      internalID: -1456451410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      dragon moving_15: -1456451410
+      dragon moving_10: -99653577
+      dragon moving_0: -510030606
+      dragon moving_4: -726571991
+      dragon moving_14: -1513836216
+      dragon moving_3: 585177762
+      dragon moving_5: -60140770
+      dragon moving_9: 1988755509
+      dragon moving_6: 2137302015
+      dragon moving_11: 954063793
+      dragon moving_7: 297058983
+      dragon moving_12: -9608559
+      dragon moving_2: 1309534542
+      dragon moving_1: 1330105207
+      dragon moving_8: 748576689
+      dragon moving_13: -1574678736
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
