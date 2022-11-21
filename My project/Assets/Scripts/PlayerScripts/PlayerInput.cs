@@ -61,6 +61,10 @@ public class PlayerInput : MonoBehaviour
                 player.StartAttack();
                 player.animator.SetTrigger("swordAttack");
             }
+            else if (player.currentItem.tag == "Consumable")
+            {
+                player.currentItem.GetComponent<Consumable>().Use();
+            }
         }
     }
 

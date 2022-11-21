@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - CollisionObject
   - Weapon
+  - Consumable
   layers:
   - Default
   - TransparentFX
@@ -49,4 +50,7 @@ TagManager:
     locked: 0
   - name: Objects
     uniqueID: 2966747993
+    locked: 0
+  - name: FX
+    uniqueID: 2766143403
     locked: 0
