@@ -2647,6 +2647,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      treasure chests_108: -1364169075
       treasure chests_56: 733682649
       treasure chests_73: 877316786
       treasure chests_52: -1121839001
@@ -2762,11 +2763,10 @@ TextureImporter:
       treasure chests_112: -613645471
       treasure chests_9: -2009135921
       treasure chests_91: 261243205
-      treasure chests_108: -1364169075
       treasure chests_62: -1636410743
-      treasure chests_95: 625380246
-      treasure chests_12: -766424656
       treasure chests_66: -2047948859
+      treasure chests_12: -766424656
+      treasure chests_95: 625380246
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
