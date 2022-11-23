@@ -9,7 +9,7 @@ public class Item : MonoBehaviour
     Rigidbody2D body;
 
     [SerializeField]
-    float pickupRange = 0.7f;
+    float pickupRange = 1f;
     [SerializeField]
     float pullForce = 100f;
 

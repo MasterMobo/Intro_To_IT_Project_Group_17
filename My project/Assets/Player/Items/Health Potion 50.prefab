@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7670991000173147902}
-  - component: {fileID: 4110268512131601772}
   - component: {fileID: 650402736642168847}
   - component: {fileID: 7267799495615978683}
+  - component: {fileID: 4110268512131601772}
   - component: {fileID: 5758296116506414202}
   m_Layer: 0
   m_Name: Health Potion 50
@@ -36,20 +36,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4110268512131601772
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3512858692062370830}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 509591ca01229514396c504affb54079, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pickupRange: 1
-  pullForce: 100
 --- !u!212 &650402736642168847
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -123,6 +109,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &4110268512131601772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3512858692062370830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 509591ca01229514396c504affb54079, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRange: 1
+  pullForce: 100
 --- !u!114 &5758296116506414202
 MonoBehaviour:
   m_ObjectHideFlags: 0
