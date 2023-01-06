@@ -16,12 +16,12 @@ TagManager:
   - 
   - Water
   - UI
-  - map
-  - player
+  - Player
+  - Map
   - 
   - 
-  - 
-  - 
+  - Weather
+  - Canvas
   - 
   - 
   - 
@@ -54,4 +54,7 @@ TagManager:
     locked: 0
   - name: FX
     uniqueID: 2766143403
+    locked: 0
+  - name: weather
+    uniqueID: 87083761
     locked: 0
