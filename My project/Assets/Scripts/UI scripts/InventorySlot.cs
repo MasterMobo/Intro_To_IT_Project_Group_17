@@ -9,11 +9,13 @@ public class InventorySlot : MonoBehaviour
     Player player;
     public int index;
     Image image;
+    Vector3 orgPos;
     void Start()
     {
         image = GetComponent<Image>();
         player = GameObject.FindWithTag("Player").GetComponent<Player>();
         image.preserveAspect = true;
+        orgPos = transform.localPosition;
 
     }
 
@@ -22,7 +24,14 @@ public class InventorySlot : MonoBehaviour
     {
         if (player.inventory.inventory[index] != null)
         {
+            image.enabled = true;
             image.sprite = player.inventory.inventory[index].GetComponent<SpriteRenderer>().sprite;
+            
+        }
+        else
+        {
+            image.enabled = false;
+            
         }
     }
 }

@@ -40,6 +40,16 @@ public class PlayerInput : MonoBehaviour
             }
         }
 
+        if (Input.mouseScrollDelta.y > 0)
+        {
+            player.inventory.PreviousItem();
+        }
+
+        if (Input.mouseScrollDelta.y < 0)
+        {
+            player.inventory.NextItem();
+        }
+
         if (Input.GetKey(KeyCode.LeftShift))
         {
             isRunningPressed = true;

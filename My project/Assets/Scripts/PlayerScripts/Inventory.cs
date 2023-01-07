@@ -10,7 +10,7 @@ public class Inventory : MonoBehaviour
     
 
     GameObject selectedItem;
-    int selectedItemIndex = 0;
+    public int selectedItemIndex = 0;
 
     private void Start()
     {
@@ -57,6 +57,40 @@ public class Inventory : MonoBehaviour
         inventory[selectedItemIndex] = null;
     }
 
+    public void NextItem()
+    {
+        Destroy(selectedItem);
+        selectedItemIndex++;
+
+        if (selectedItemIndex >= size)
+        {
+            selectedItemIndex = 0;
+        }
+
+        if (inventory[selectedItemIndex] != null)
+        {
+            selectedItem = Instantiate(inventory[selectedItemIndex], player.transform.position, Quaternion.identity);
+            selectedItem.transform.parent = player.transform;
+        }
+    }
+
+    public void PreviousItem()
+    {
+        Destroy(selectedItem);
+        selectedItemIndex--;
+
+        if (selectedItemIndex < 0)
+        {
+            selectedItemIndex = size - 1;
+        }
+
+        if (inventory[selectedItemIndex] != null)
+        {
+            selectedItem = Instantiate(inventory[selectedItemIndex], player.transform.position, Quaternion.identity);
+            selectedItem.transform.parent = player.transform;
+        }
+    }
+
     public void ChangeItem(int i)
     {
         if (i >= size)
@@ -64,12 +98,6 @@ public class Inventory : MonoBehaviour
             return;
         }
         Destroy(selectedItem);
-/*        selectedItemIndex++;
-
-        if (selectedItemIndex > inventory.Count - 1)
-        {
-            selectedItemIndex = 0;
-        }*/
 
         if (inventory[i] != null)
         {
@@ -78,6 +106,8 @@ public class Inventory : MonoBehaviour
             selectedItemIndex = i;
         }
     }
+
+    
 }
 
 
