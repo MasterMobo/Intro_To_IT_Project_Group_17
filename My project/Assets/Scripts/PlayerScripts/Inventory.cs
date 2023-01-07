@@ -57,20 +57,25 @@ public class Inventory : MonoBehaviour
         inventory[selectedItemIndex] = null;
     }
 
-    public void ChangeItem()
+    public void ChangeItem(int i)
     {
+        if (i >= size)
+        {
+            return;
+        }
         Destroy(selectedItem);
-        selectedItemIndex++;
+/*        selectedItemIndex++;
 
         if (selectedItemIndex > inventory.Count - 1)
         {
             selectedItemIndex = 0;
-        }
+        }*/
 
-        if (inventory[selectedItemIndex] != null)
+        if (inventory[i] != null)
         {
-            selectedItem = Instantiate(inventory[selectedItemIndex], player.transform.position, Quaternion.identity);
+            selectedItem = Instantiate(inventory[i], player.transform.position, Quaternion.identity);
             selectedItem.transform.parent = player.transform;
+            selectedItemIndex = i;
         }
     }
 }

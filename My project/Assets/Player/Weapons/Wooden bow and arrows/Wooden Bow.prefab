@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 5972060633311588136}
   - component: {fileID: 5972060633311588137}
   - component: {fileID: 5972060633311588134}
+  - component: {fileID: 6473872721421228432}
+  - component: {fileID: 1888314122919425074}
   m_Layer: 0
   m_Name: Wooden Bow
   m_TagString: Weapon
@@ -104,11 +106,11 @@ MonoBehaviour:
   coolDown: 0.2
   coolDownElapsed: 0
   isCoolingDown: 0
+  passThrough: 0
   player: {fileID: 0}
   spriteRenderer: {fileID: 0}
   animator: {fileID: 0}
   fireForce: 200
-  passThrough: 0
   projectile: {fileID: 1813425350973758629, guid: 73a145004982cd6478628e92ccd49254, type: 3}
 --- !u!95 &5972060633311588134
 Animator:
@@ -130,3 +132,38 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!50 &6473872721421228432
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5972060633311588138}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 2
+  m_LinearDrag: 3
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &1888314122919425074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5972060633311588138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 509591ca01229514396c504affb54079, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRange: 1
+  pullForce: 100

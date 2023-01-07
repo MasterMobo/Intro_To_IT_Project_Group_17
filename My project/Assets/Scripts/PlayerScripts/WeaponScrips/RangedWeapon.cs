@@ -22,11 +22,12 @@ public class RangedWeapon : Weapon
 
     private void FixedUpdate()
     {
-        RotateAccordingTo(player.mouseDirection);
-
-        UpdatePosition();
-
-        CheckCooldown();
+        if (transform.parent != null)
+        {
+            RotateAccordingTo(player.mouseDirection);
+            UpdatePosition();
+            CheckCooldown();
+        }
     }
 
 

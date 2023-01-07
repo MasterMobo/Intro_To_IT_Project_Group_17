@@ -14,12 +14,32 @@ public class PlayerInput : MonoBehaviour
     public bool isRunningPressed = false;
     public bool isDashingPressed = false;
 
+    private KeyCode[] keyCodes = {
+         KeyCode.Alpha1,
+         KeyCode.Alpha2,
+         KeyCode.Alpha3,
+         KeyCode.Alpha4,
+         KeyCode.Alpha5,
+         KeyCode.Alpha6,
+         KeyCode.Alpha7,
+         KeyCode.Alpha8,
+         KeyCode.Alpha9,
+     };
+
 
     //====================================================================
     // Update is called every frame (To get player input)
     //====================================================================
     private void Update()
     {
+        for (int i = 0; i < keyCodes.Length; i++)
+        {
+            if (Input.GetKeyDown(keyCodes[i]))
+            {
+                player.inventory.ChangeItem(i);
+            }
+        }
+
         if (Input.GetKey(KeyCode.LeftShift))
         {
             isRunningPressed = true;
@@ -28,7 +48,7 @@ public class PlayerInput : MonoBehaviour
         // Switch item when TAB is pressed
         if (Keyboard.current.tabKey.wasPressedThisFrame)
         {
-            player.inventory.ChangeItem();
+            
         }
 
 

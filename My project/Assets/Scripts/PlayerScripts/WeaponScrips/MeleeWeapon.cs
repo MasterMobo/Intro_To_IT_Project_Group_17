@@ -19,11 +19,14 @@ public class MeleeWeapon : Weapon
 
     private void FixedUpdate()
     {
-        RotateAccordingTo(player.mouseDirection);
+        if (transform.parent != null)
+        {
+            RotateAccordingTo(player.mouseDirection);
 
-        UpdatePosition();
+            UpdatePosition();
 
-        CheckCooldown();
+            CheckCooldown();
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
