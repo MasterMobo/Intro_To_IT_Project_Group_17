@@ -9,6 +9,7 @@ TagManager:
   - Weapon
   - Consumable
   - Map
+  - Node
   layers:
   - Default
   - TransparentFX

@@ -174,7 +174,8 @@ public class Player : DamageableCharacter
     {
         playerMovement.LockMovement();
         animator.SetTrigger("dead");
-        playerCollider.enabled = false;        
+        playerCollider.enabled = false;
+        GameObject.Find("GameStateManager").GetComponent<GameStateManager>().GameOverScreen();
     }
 
 

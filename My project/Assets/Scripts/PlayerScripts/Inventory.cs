@@ -7,6 +7,8 @@ public class Inventory : MonoBehaviour
     Player player;
     public int size = 4;
     public List<GameObject> inventory = new List<GameObject>();
+
+    public int gold;
     
 
     GameObject selectedItem;

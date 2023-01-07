@@ -8,6 +8,8 @@ public class Tower : MonoBehaviour
 
     [Header("Attributes")]
 
+    public float damage;
+    public float knockbackForce;
     public float range = 15f;
     public float shootRate = 1f;
     private float shootCountdown = 0f;
@@ -80,6 +82,7 @@ public class Tower : MonoBehaviour
     void Shoot()
     {   
         GameObject projectileGO = (GameObject)Instantiate(bulletPrefab, shootPoint.position, shootPoint.rotation);
+        projectileGO.transform.parent = transform;
         Projectile projectile = projectileGO.GetComponent<Projectile>();
 
         if (projectile != null)
