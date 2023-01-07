@@ -157,8 +157,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1328219303
-  m_SortingLayer: 2
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -1993855923, guid: 325d5e0767eedc6419cb9dd239b07eac, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -253,7 +253,6 @@ MonoBehaviour:
   maxHealth: 500
   _currentHealth: 0
   armor: 2
-  knockbackResistance: 10000000
   isAlive: 1
   acceleration: 50
   maxMovementSpeed: 100
@@ -261,7 +260,7 @@ MonoBehaviour:
   isFacingRight: 0
   aggroDistance: 3
   enemyCollisionDamage: 10
-  enemyCollisionKnockbackForce: 0
+  enemyKnockbackForce: 100
   animator: {fileID: 0}
   body: {fileID: 0}
   spriteRenderer: {fileID: 0}
@@ -269,7 +268,6 @@ MonoBehaviour:
   detectionZone: {fileID: 0}
   attackDistance: 1
   enemyAttackDamage: 50
-  enemyAttackKnockbackForce: 0
 --- !u!1 &7610324705657584378
 GameObject:
   m_ObjectHideFlags: 0
