@@ -17,6 +17,8 @@ public class Enemy : DamageableCharacter
     public float enemyCollisionDamage; // Damage when enemy collides into other objects
     public float enemyCollisionKnockbackForce; // Knockback force when enemy collides into other objects
 
+    public DropLoot dropLoot;
+
     // Components
     public Animator animator;
     public Rigidbody2D body;
@@ -97,6 +99,11 @@ public class Enemy : DamageableCharacter
     // End death process (Usually an event in the death animation)
     public void EndDeath()
     {
+        if (dropLoot != null)
+        {
+            dropLoot.SpawnLoot();
+        }
+    
         Destroy(gameObject);
     }
 

@@ -6,7 +6,7 @@ public class Item : MonoBehaviour
 {
 
     Player player;
-    Rigidbody2D body;
+    public Rigidbody2D body;
 
     [SerializeField]
     float pickupRange = 1f;

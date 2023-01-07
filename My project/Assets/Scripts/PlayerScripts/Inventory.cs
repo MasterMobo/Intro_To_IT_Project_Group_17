@@ -102,9 +102,10 @@ public class Inventory : MonoBehaviour
         if (inventory[i] != null)
         {
             selectedItem = Instantiate(inventory[i], player.transform.position, Quaternion.identity);
-            selectedItem.transform.parent = player.transform;
-            selectedItemIndex = i;
+            selectedItem.transform.parent = player.transform;  
         }
+
+        selectedItemIndex = i;
     }
 
     
