@@ -1,0 +1,1509 @@
+fileFormatVersion: 2
+guid: 1e91a0199591f1341b49f9e527194c9b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 327
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e80036abdaf8f4b8adb0f6e0010380
+      internalID: 480909650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 323
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac5f294ecea6154086762498f4fd1c8
+      internalID: -1209883613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_2
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 320
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e304bee9ffe4bc468a01e96b93f6fd2
+      internalID: 1155192065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_3
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 325
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c01af2551b719842bbbe18cd2c91f89
+      internalID: -1752067181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 322
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d2759b1ae3ad64891f06d59a42ef47
+      internalID: -1055432215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 322
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52313cc059892ca48b6ec068f2febb62
+      internalID: -1420655101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_6
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 327
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b12cc7e648af4c4785b0a0af12107c6
+      internalID: -480723514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_7
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 323
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989aa8ccd8842b64682b3fe4c4414633
+      internalID: 312006090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_8
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 320
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a523635588e69674f8612fbe8e402606
+      internalID: 966924113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_9
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 263
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c88ff9021766a4cb5010cf3f45d3ba
+      internalID: 663118490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_10
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 259
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89af2b83657250d4982827d69426d3e1
+      internalID: 541852122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_11
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 256
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b830d315b5d5cc74988009247eaf8456
+      internalID: -825874290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_12
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 256
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30adc0e1e92896449b042ead0f03f4c
+      internalID: -356856405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 260
+        width: 59
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4284afe2cd19eb1458042dc9ae1bf620
+      internalID: -1732085661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_14
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 260
+        width: 45
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747d78213c4cb5b4fa59ffc0c89c6f4c
+      internalID: -1475413657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_15
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 263
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa22f4f55e4cac7479ff5332fed69f3c
+      internalID: -2021194509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_16
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 259
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56a8cba1cd70d94dbdeae1bf2a8ca82
+      internalID: -670769648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_17
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 256
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d368a0afe0622bf44b3f97570b69d12d
+      internalID: -1712251101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 199
+        width: 59
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3180d3856d50dbd4e879828a63e92885
+      internalID: -765537679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_19
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 195
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e339bad5fcaee4fa87e9e5c1b4ee32
+      internalID: 53202953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_20
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 192
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b35e9f3e9a40a94185ff5aef04e1f7b
+      internalID: 1377336769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_21
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 205
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883a7f6f234a6554cb536412eae1305c
+      internalID: 1340296568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_22
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 195
+        width: 47
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbccc0c93437a55408efdd858e5a1adc
+      internalID: 545947032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_23
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 199
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b98687b6fe5f194ca01a0f181929ecc
+      internalID: -1108436308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_24
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 199
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633850c9eb19e8f49a75e5f4aa6da4a9
+      internalID: -1325070145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_25
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 206
+        width: 55
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93359a6c62a0314d8cab50d13ff382e
+      internalID: -1416235240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_26
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 194
+        width: 54
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2262ffc7c4f975d46b7ceb1722830979
+      internalID: -939529462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_27
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 205
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e5cea36480b564aa35cfbd9b21f77b
+      internalID: 883989027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_28
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 197
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cea394d71e6fc54b947c2e31ec0305f
+      internalID: 263721748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_29
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 194
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f84e273847df3428d10af00da8b600
+      internalID: -1788173287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_30
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 123
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8f3c58263cb594591d1e92c351a849
+      internalID: -1860309075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_31
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 123
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12152e6c47130f141adccf0e0ece542b
+      internalID: -800023372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_32
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 123
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c3abc7a63156743bf214a1bc3cd781
+      internalID: -2048048174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_33
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 128
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff1c235fca79084f97b03d1e5e7e95d
+      internalID: 91372324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_34
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 135
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee48557c415f8da42b50221f67b4da0e
+      internalID: -1569592834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_35
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 135
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb34b47472ee6a544b557578883ca09a
+      internalID: 194529620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_36
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 142
+        width: 55
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73dde6e2c0cc84440872ef2147dcd1e1
+      internalID: 1522589227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_37
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 130
+        width: 54
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477d6edfa63081e4f88585300b309820
+      internalID: 1521075285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_38
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 141
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a842d40e03a9d5458f5231aeba3c87f
+      internalID: 1039835620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_39
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 133
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e72ae595e9948489871b8ae3c12161
+      internalID: 1696641215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_40
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 130
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40d0198583e38a488e3adb964e26c6b
+      internalID: -571561295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_41
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 81
+        width: 58
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9f41191e4930645a03644624d14f0c
+      internalID: -909817019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_42
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 81
+        width: 58
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d024a47b32656444c919fae3eef4a28b
+      internalID: 1521771368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_43
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 81
+        width: 58
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1598b5e18442c0e4ba4011b1fb8a0374
+      internalID: -850258163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_44
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 64
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d57e2a7ffdf51445ad0b9f2421b66ea
+      internalID: 1419215850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_45
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 71
+        width: 59
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a967be9c29233d24cb3381a7a9a390dc
+      internalID: 881091158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_46
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 71
+        width: 59
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31235ab87e94609449d0071c3696fbe6
+      internalID: 1170845335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_47
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 64
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8aef16a33213b4e82129801220d491
+      internalID: 1514297926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_48
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 64
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec21e0284d61c743a80f16b3c101a79
+      internalID: -1810870698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_49
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 64
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aadacd11fb1d81c4e811943e0d7762fa
+      internalID: -1947420837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_50
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 71
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f75662472030f4dbbdd639dab437ee
+      internalID: 1071559132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_51
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 71
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee7480c58935f847b241620e258f7d9
+      internalID: -2048632535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_52
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 71
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9f14f7a6559fc4cbaf801053a5a85a
+      internalID: 2094118238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_53
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 77
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c6466722e2f9a4782fece405cb3a8b
+      internalID: -2054646574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_54
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 8
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab73deb8c959a1d49959c6dce175e4f5
+      internalID: 776200413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_55
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 8
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de726a0247df2504cb4208833503c5e0
+      internalID: 708525682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_56
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 8
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4c3fbfaf794594bb927142b50c341f
+      internalID: -1393954593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_57
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 0
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9788b8ed3be66943abe7326201dcef8
+      internalID: -33699326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_58
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 7
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091f6a5a95dc2794cb5aeefc321adc6e
+      internalID: 382014742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_59
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 7
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82d6fba008ed86419146d3deb732771
+      internalID: 962421140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_60
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 0
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605cb7d7664b46048bc62304b5e1f178
+      internalID: 1140090539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_61
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 0
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2349fa5dfe0ce8845a4fc5a152f06f33
+      internalID: 1846419473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost-purple-pink_3_62
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 0
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ad4aa33fe3eae46b69f2330873bf32
+      internalID: -293937985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ghost-purple-pink_3_1: -1209883613
+      ghost-purple-pink_3_11: -825874290
+      ghost-purple-pink_3_24: -1325070145
+      ghost-purple-pink_3_62: -293937985
+      ghost-purple-pink_3_30: -1860309075
+      ghost-purple-pink_3_39: 1696641215
+      ghost-purple-pink_3_58: 382014742
+      ghost-purple-pink_3_17: -1712251101
+      ghost-purple-pink_3_19: 53202953
+      ghost-purple-pink_3_34: -1569592834
+      ghost-purple-pink_3_51: -2048632535
+      ghost-purple-pink_3_48: -1810870698
+      ghost-purple-pink_3_35: 194529620
+      ghost-purple-pink_3_10: 541852122
+      ghost-purple-pink_3_13: -1732085661
+      ghost-purple-pink_3_3: -1752067181
+      ghost-purple-pink_3_28: 263721748
+      ghost-purple-pink_3_52: 2094118238
+      ghost-purple-pink_3_36: 1522589227
+      ghost-purple-pink_3_7: 312006090
+      ghost-purple-pink_3_54: 776200413
+      ghost-purple-pink_3_12: -356856405
+      ghost-purple-pink_3_2: 1155192065
+      ghost-purple-pink_3_61: 1846419473
+      ghost-purple-pink_3_21: 1340296568
+      ghost-purple-pink_3_56: -1393954593
+      ghost-purple-pink_3_33: 91372324
+      ghost-purple-pink_3_26: -939529462
+      ghost-purple-pink_3_44: 1419215850
+      ghost-purple-pink_3_45: 881091158
+      ghost-purple-pink_3_29: -1788173287
+      ghost-purple-pink_3_0: 480909650
+      ghost-purple-pink_3_40: -571561295
+      ghost-purple-pink_3_42: 1521771368
+      ghost-purple-pink_3_15: -2021194509
+      ghost-purple-pink_3_5: -1420655101
+      ghost-purple-pink_3_49: -1947420837
+      ghost-purple-pink_3_18: -765537679
+      ghost-purple-pink_3_23: -1108436308
+      ghost-purple-pink_3_46: 1170845335
+      ghost-purple-pink_3_57: -33699326
+      ghost-purple-pink_3_31: -800023372
+      ghost-purple-pink_3_59: 962421140
+      ghost-purple-pink_3_25: -1416235240
+      ghost-purple-pink_3_38: 1039835620
+      ghost-purple-pink_3_27: 883989027
+      ghost-purple-pink_3_41: -909817019
+      ghost-purple-pink_3_6: -480723514
+      ghost-purple-pink_3_50: 1071559132
+      ghost-purple-pink_3_4: -1055432215
+      ghost-purple-pink_3_14: -1475413657
+      ghost-purple-pink_3_43: -850258163
+      ghost-purple-pink_3_20: 1377336769
+      ghost-purple-pink_3_47: 1514297926
+      ghost-purple-pink_3_32: -2048048174
+      ghost-purple-pink_3_9: 663118490
+      ghost-purple-pink_3_53: -2054646574
+      ghost-purple-pink_3_55: 708525682
+      ghost-purple-pink_3_16: -670769648
+      ghost-purple-pink_3_8: 966924113
+      ghost-purple-pink_3_60: 1140090539
+      ghost-purple-pink_3_37: 1521075285
+      ghost-purple-pink_3_22: 545947032
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -8,7 +8,6 @@ public class DamageableCharacter : MonoBehaviour
     public float maxHealth;
     public float _currentHealth; // health of object, determines whether object is alive or dead
     public float armor = 1; // resistance to damage (1 to infinity)
-    public float knockbackResistance = 1; // resistance to knockback (1 to infinity)
     public bool isAlive = true; // true is health > 0, false is health <= 0
     
 
@@ -19,13 +18,8 @@ public class DamageableCharacter : MonoBehaviour
         {
             _currentHealth = value;
             // check _health every time it gets assigned, if < 0, object is dead
-            if (_currentHealth > maxHealth)
-            {
-                _currentHealth = maxHealth;
-            }
             if (_currentHealth <= 0)
             {
-                _currentHealth = 0;
                 isAlive = false;
             }
         }

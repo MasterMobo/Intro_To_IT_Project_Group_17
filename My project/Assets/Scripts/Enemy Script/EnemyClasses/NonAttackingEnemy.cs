@@ -15,7 +15,7 @@ public class NonAttackingEnemy : Enemy
         body = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         player = GameObject.FindWithTag("Player");
-        detectionZone = GetComponentInChildren<EnemyDetectionZone>();
+        detectionZone = GetComponentInChildren<DetectionZone>();
 
         InitializeHealth();
     }
@@ -32,16 +32,11 @@ public class NonAttackingEnemy : Enemy
         if (detectionZone.detected.Count > 0)
         {
             MoveTowards(detectionZone.detected[0].transform.position);
-            FlipXAccordingTo(player.transform.position - transform.position);
-        }
-        else
-        {
-            FlipXAccordingTo(body.velocity);
         }
 
         // If the velocity is not zero, start move animation
         animator.SetBool("isMoving", body.velocity != Vector2.zero);
 
-        
+        checkFlipDirection();
     }
 }

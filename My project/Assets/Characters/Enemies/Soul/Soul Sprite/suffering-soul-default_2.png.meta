@@ -1,0 +1,2037 @@
+fileFormatVersion: 2
+guid: 9368e8ad69d097640a84f491984a9170
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: suffering-soul-default_2_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 327
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6fad1033d83254d8e38213dd6a9bc7
+      internalID: 274654231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 326
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3d5956bbd915146b9174cde4905235
+      internalID: 40986960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_2
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 325
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293e3f459d46a9a41b4ae5eb2beb08a9
+      internalID: 1524249180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_3
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 326
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d23ec6db045d742a50f61a454e30e8
+      internalID: -330939647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 325
+        width: 62
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010c81fe08ebe32478088189118fb197
+      internalID: -1567820742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 326
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2378f088d3b1eee4bbee4feb71461d60
+      internalID: 1464483239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_6
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 325
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31c769c868291b47b49fb750b6f58b3
+      internalID: -267296905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_7
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 326
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f6bbb9766e223498ac641de00ae659
+      internalID: 292934802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_8
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 327
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518dde678ffbf0a47adb6328a9ae0ce6
+      internalID: -966084016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_9
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 263
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4add78d041ddb01418da6084e79b7399
+      internalID: -95237581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_10
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 262
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3df566719d7cc4db6dbdd1859e5795
+      internalID: -306993002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_11
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 261
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee11cb2d2be10d94eba66525d4a26be8
+      internalID: 783078575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_12
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 261
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c15560fb2eb0d4bb25e4d31d3e65aa
+      internalID: 1256241141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c8632a96978aa41a622d2f7a067129
+      internalID: 188417725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_14
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 258
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d408cc9cac3fa44930698c77b74b7d
+      internalID: -364191502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_15
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 263
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039b04c1fe38cdf4da12033503f804b1
+      internalID: -2067867626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_16
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 262
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc07e1b7053f4394f9fb648968d3c871
+      internalID: -441015666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_17
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 261
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748b935db923f8e47bf122300962563d
+      internalID: -1589272357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 195
+        width: 56
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881f9fd0cbaf9df44ab87798f1c19aed
+      internalID: 729444223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_19
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 194
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b77a47fde635a1458114c4772b53c3a
+      internalID: -1560637589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_20
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 193
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8bd417310099e04ea91de260cd07491
+      internalID: 1053495777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_21
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 247
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e60535002b0b634c9dea9b34a5f000b
+      internalID: -1780408580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_22
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 246
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4207f3693d927f448011de64cfd0d32
+      internalID: 383508922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_23
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 248
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0025af5250d496c48938a367cedb811e
+      internalID: -281613591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7ac464ae950d64486167bbfb0c28db
+      internalID: -1264239963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_25
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 198
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee1caaad781628449cccee8326dac7d
+      internalID: -699089193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 245
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873945b561a0cfa449ce5590456b1697
+      internalID: 913734382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_27
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 199
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0218c372f2bd5cc4fb6a476b6d4f08fd
+      internalID: 1932381338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_28
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 198
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e2cbe641064d246839a157f109d186
+      internalID: -100440592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_29
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 197
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ad62c61f1b73d42a21c62d57299747
+      internalID: 471721531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_30
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 242
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70ee78cf760124428a3da8bde9dc571
+      internalID: -1745723658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_31
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 239
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac06568b8601594eaa4ec44bf3d1f8f
+      internalID: -565001603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_32
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 192
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabd768cfe302eb429b7c58cba81d237
+      internalID: 1801332426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_33
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 222
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e6984ec6d813f48a1bf5b277e9f5df
+      internalID: -853519900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_34
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 219
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732168ccca209e14e8ce41b81b66fcbb
+      internalID: -1547179776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_35
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 219
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585956f68ab96b44ab12a83b43867441
+      internalID: 815617687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_36
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 204
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ce55244dc5d5a4882f54d8497260fb
+      internalID: 1399754372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_37
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 194
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4f29aaa81da924ba8776ebf1042112
+      internalID: -2001891126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_38
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 195
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2061aac0d6f06be4aa2c1124c732333d
+      internalID: -825185199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_39
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 197
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf72ddaf36e2c14799e3abe33860c4e
+      internalID: -4850392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_40
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 196
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ecd24808f512644945b5f1fd611a2e
+      internalID: 125345284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_41
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 135
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d528585b94b7ec469a12d6ba6d427ce
+      internalID: 2016174084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_42
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 135
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d05c571ad43c23499c6c56c4bfc00f9
+      internalID: -1614162770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_43
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 135
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e28b77015a0f3641915f98f51b36693
+      internalID: 669399234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_44
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 133
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb8c5eaa16d6744cbab6909bcbbcb45
+      internalID: 328730039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_45
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 135
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9049998d8ba56644914c3436e9fadb4
+      internalID: 1560163030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_46
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 135
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbf36e55feece4419a05f8a468e9949
+      internalID: 1939942072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_47
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 135
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce43effb9556a2e468f98f3dfa127bf5
+      internalID: 1633274388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_48
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 155
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c7a9ed1b77bc14bb1718957c60c491
+      internalID: 986338119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_49
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 134
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca4d40df686a58428d2d6a9eed0b7d9
+      internalID: 1507991885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_50
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 133
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732b20fa592971b4c882fa154b0b52fb
+      internalID: -1164525834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_51
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 67
+        width: 56
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e10ec1dcee55c4ca1d4d7a1ddbc602
+      internalID: -1414891595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_52
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 70
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228aca84a153d5549a0e90dc2a2724e4
+      internalID: -273412137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_53
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 119
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3065fabf394a95429fa5c480e38d2bb
+      internalID: -1782952404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_54
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 121
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed260b5ca9ea0e34da586681c510e411
+      internalID: -265282223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_55
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 70
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97babd8c7664c84f94e95f3f33fc6a0
+      internalID: 1681097721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_56
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 119
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125df836fdfa26146b7bc38d06967bd0
+      internalID: 213256876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_57
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 121
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b8fb3aab746a24d80c02d5e17ab6a4
+      internalID: 67824869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_58
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 69
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20bbc4e61435dc5478d7aefda56a02eb
+      internalID: 1515876578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_59
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 69
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1aaccff3311c343b1901c4f4e6ee01
+      internalID: 1109928263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_60
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 69
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017cc7bccebf46c47b26119daab5c10f
+      internalID: -64125099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_61
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 114
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ed93eaff82bfc4c81609df8809b83a
+      internalID: -234433727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_62
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 112
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8236a5ef285a9a045bd42c956e6f59d3
+      internalID: -1483035603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_63
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 112
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9ec5be9d33f4d4c883642e228182d7
+      internalID: 1888744393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_64
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 94
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98102268f5485544794d4219870f7401
+      internalID: -666851639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_65
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 92
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6fe99eeb33dea4bbdb869e69625319
+      internalID: -913335436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_66
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 92
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f99aafe002e7744ba32938818fa80ce
+      internalID: -1640975882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_67
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 64
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec0a58b22f987c4f88c96d29c59b133
+      internalID: 1594488317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_68
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 64
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1041acfb87f35be45b72d86ce0a3b1e3
+      internalID: 1573261690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_69
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 64
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36baccb81cb7dc04989579bb458eb68f
+      internalID: 418083983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_70
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 77
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7b5f3f3f05fc043a541bc3057edb3a
+      internalID: -1216889968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_71
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 77
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789c0ae51f6782e45b5c62cfb3022a25
+      internalID: 79449488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_72
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 67
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217c33fff0fb24241b358fcb57471e3e
+      internalID: 1648138789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_73
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 65
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf7a5c53b67b45469bd9b9d2ea9d9fd
+      internalID: -32608584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_74
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 69
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5404563c8d6b8c94db08d8d26b5236e1
+      internalID: -361746834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_75
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 67
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e508dd88adb124409d4c15f1da0cec3
+      internalID: 2083225441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_76
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 65
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeff8ebc585e68c46aec72f272127cb9
+      internalID: 1724526814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_77
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 69
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac926d1044fe7204cb6f654a1cff8f6c
+      internalID: 1666828427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_78
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 10
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4de47bcf141d94ab593d1523caab46
+      internalID: -843076572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_79
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 10
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313869c2a66a17d4f81bdd3bb0f0d68d
+      internalID: -182554891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_80
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 10
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1ef029b53808e44bacf2a21e0465ca
+      internalID: -1422287592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_81
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 5
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b81b264e55f314992261ed0c5b4ad2
+      internalID: 541685458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_82
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 7
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379c14a3ddc0979428268bceb10076d0
+      internalID: 1034076571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_83
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 7
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b95b05831958e44908966897b4b322
+      internalID: 1557384132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_84
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14bafe2a792dc1448d12f142aadff9e
+      internalID: 858616127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_85
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 0
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30303af45956539458a70419c8d2ca1d
+      internalID: 1142149583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suffering-soul-default_2_86
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4abe39fc28f8d84ea2562bbb527185c
+      internalID: 1441233074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      suffering-soul-default_2_41: 2016174084
+      suffering-soul-default_2_23: -281613591
+      suffering-soul-default_2_83: 1557384132
+      suffering-soul-default_2_70: -1216889968
+      suffering-soul-default_2_79: -182554891
+      suffering-soul-default_2_55: 1681097721
+      suffering-soul-default_2_20: 1053495777
+      suffering-soul-default_2_46: 1939942072
+      suffering-soul-default_2_44: 328730039
+      suffering-soul-default_2_49: 1507991885
+      suffering-soul-default_2_19: -1560637589
+      suffering-soul-default_2_3: -330939647
+      suffering-soul-default_2_68: 1573261690
+      suffering-soul-default_2_26: 913734382
+      suffering-soul-default_2_2: 1524249180
+      suffering-soul-default_2_40: 125345284
+      suffering-soul-default_2_59: 1109928263
+      suffering-soul-default_2_81: 541685458
+      suffering-soul-default_2_71: 79449488
+      suffering-soul-default_2_84: 858616127
+      suffering-soul-default_2_9: -95237581
+      suffering-soul-default_2_73: -32608584
+      suffering-soul-default_2_29: 471721531
+      suffering-soul-default_2_43: 669399234
+      suffering-soul-default_2_77: 1666828427
+      suffering-soul-default_2_10: -306993002
+      suffering-soul-default_2_7: 292934802
+      suffering-soul-default_2_80: -1422287592
+      suffering-soul-default_2_64: -666851639
+      suffering-soul-default_2_78: -843076572
+      suffering-soul-default_2_28: -100440592
+      suffering-soul-default_2_74: -361746834
+      suffering-soul-default_2_85: 1142149583
+      suffering-soul-default_2_22: 383508922
+      suffering-soul-default_2_50: -1164525834
+      suffering-soul-default_2_38: -825185199
+      suffering-soul-default_2_69: 418083983
+      suffering-soul-default_2_42: -1614162770
+      suffering-soul-default_2_82: 1034076571
+      suffering-soul-default_2_52: -273412137
+      suffering-soul-default_2_76: 1724526814
+      suffering-soul-default_2_48: 986338119
+      suffering-soul-default_2_35: 815617687
+      suffering-soul-default_2_15: -2067867626
+      suffering-soul-default_2_30: -1745723658
+      suffering-soul-default_2_39: -4850392
+      suffering-soul-default_2_53: -1782952404
+      suffering-soul-default_2_6: -267296905
+      suffering-soul-default_2_62: -1483035603
+      suffering-soul-default_2_12: 1256241141
+      suffering-soul-default_2_65: -913335436
+      suffering-soul-default_2_63: 1888744393
+      suffering-soul-default_2_1: 40986960
+      suffering-soul-default_2_24: -1264239963
+      suffering-soul-default_2_56: 213256876
+      suffering-soul-default_2_31: -565001603
+      suffering-soul-default_2_66: -1640975882
+      suffering-soul-default_2_21: -1780408580
+      suffering-soul-default_2_25: -699089193
+      suffering-soul-default_2_60: -64125099
+      suffering-soul-default_2_14: -364191502
+      suffering-soul-default_2_13: 188417725
+      suffering-soul-default_2_17: -1589272357
+      suffering-soul-default_2_58: 1515876578
+      suffering-soul-default_2_18: 729444223
+      suffering-soul-default_2_36: 1399754372
+      suffering-soul-default_2_8: -966084016
+      suffering-soul-default_2_47: 1633274388
+      suffering-soul-default_2_33: -853519900
+      suffering-soul-default_2_75: 2083225441
+      suffering-soul-default_2_0: 274654231
+      suffering-soul-default_2_86: 1441233074
+      suffering-soul-default_2_34: -1547179776
+      suffering-soul-default_2_45: 1560163030
+      suffering-soul-default_2_11: 783078575
+      suffering-soul-default_2_61: -234433727
+      suffering-soul-default_2_32: 1801332426
+      suffering-soul-default_2_72: 1648138789
+      suffering-soul-default_2_37: -2001891126
+      suffering-soul-default_2_4: -1567820742
+      suffering-soul-default_2_5: 1464483239
+      suffering-soul-default_2_57: 67824869
+      suffering-soul-default_2_67: 1594488317
+      suffering-soul-default_2_27: 1932381338
+      suffering-soul-default_2_51: -1414891595
+      suffering-soul-default_2_16: -441015666
+      suffering-soul-default_2_54: -265282223
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

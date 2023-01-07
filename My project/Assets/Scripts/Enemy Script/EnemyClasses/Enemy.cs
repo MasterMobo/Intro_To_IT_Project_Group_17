@@ -15,16 +15,14 @@ public class Enemy : DamageableCharacter
 
     public float aggroDistance; // The range within which the enemy will start to move towards target
     public float enemyCollisionDamage; // Damage when enemy collides into other objects
-    public float enemyCollisionKnockbackForce; // Knockback force when enemy collides into other objects
-
-    public DropLoot dropLoot;
+    public float enemyKnockbackForce; // Knockback force when enemy collides into other objects
 
     // Components
     public Animator animator;
     public Rigidbody2D body;
     public SpriteRenderer spriteRenderer;
     public GameObject player;
-    public EnemyDetectionZone detectionZone; // Child gameObjects for dectecting objects nearby (this has a seperate script, refer to: EnemyDetectionZone.cs)
+    public DetectionZone detectionZone; // Child gameObjects for dectecting objects nearby (this has a seperate script, refer to: EnemyDetectionZone.cs)
 
 
     // Move the enemy towards input target
@@ -45,7 +43,7 @@ public class Enemy : DamageableCharacter
         if (other.tag == "Player")
         {
             Vector2 dir = other.transform.position - gameObject.GetComponentInParent<Transform>().position;
-            Vector2 knockback = Vector3.Normalize(dir) * enemyCollisionKnockbackForce;
+            Vector2 knockback = Vector3.Normalize(dir) * enemyKnockbackForce;
             other.GetComponent<Player>().OnHit(enemyCollisionDamage, knockback);
         }
     }
@@ -54,20 +52,20 @@ public class Enemy : DamageableCharacter
     public override void OnHit(float damage, Vector3 knockBack)
     {
         base.OnHit(damage, knockBack);
-        body.AddForce(knockBack/knockbackResistance);
+        body.AddForce(knockBack);
         animator.SetTrigger("isHit");
     }
 
     // Function for checking if enemy is facing left or right
-    public void FlipXAccordingTo(Vector3 target)
+    public void checkFlipDirection()
     {
         // If facing left, flip x-axis of sprite
-        if (target.x < 0)
+        if (body.velocity.x < 0)
         {
             spriteRenderer.flipX = true;
         };
         // If facing right, don't flip x-axis of sprite
-        if (target.x > 0)
+        if (body.velocity.x > 0)
         {
             spriteRenderer.flipX = false;
         };
@@ -91,7 +89,6 @@ public class Enemy : DamageableCharacter
     // Start death process
     public void StartDeath()
     {
-        LockMovement();
         // Start death animation
         animator.SetTrigger("dead");
     }
@@ -99,11 +96,6 @@ public class Enemy : DamageableCharacter
     // End death process (Usually an event in the death animation)
     public void EndDeath()
     {
-        if (dropLoot != null)
-        {
-            dropLoot.SpawnLoot();
-        }
-    
         Destroy(gameObject);
     }
 
