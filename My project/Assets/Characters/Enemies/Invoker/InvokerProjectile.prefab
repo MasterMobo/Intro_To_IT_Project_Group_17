@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 669202168245177898}
   - component: {fileID: 6233344439754505017}
   - component: {fileID: 4930403439114360055}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: InvokerProjectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}

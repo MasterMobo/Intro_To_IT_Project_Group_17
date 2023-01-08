@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6497391749777276359}
   - component: {fileID: 6497391749777276358}
   - component: {fileID: 6497391749777276361}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Zombie
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -76,8 +76,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1328219303
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 298189672, guid: 701625e9aed0abf439e10f82c51a7283, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -198,7 +198,7 @@ GameObject:
   - component: {fileID: 6497391749803067888}
   - component: {fileID: 6497391749803067886}
   - component: {fileID: 6497391749803067889}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: EnemyAttackHitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -259,7 +259,7 @@ GameObject:
   - component: {fileID: 6497391750904577848}
   - component: {fileID: 6497391750904577846}
   - component: {fileID: 6497391750904577849}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: DectectionZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}

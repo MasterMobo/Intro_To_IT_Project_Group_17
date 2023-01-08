@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2206561262456957950}
   - component: {fileID: 2206561262456957951}
   - component: {fileID: 2206561262456957936}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Wyvern
   m_TagString: RangedEnemy
   m_Icon: {fileID: 0}
@@ -74,8 +74,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1328219303
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 1316682257, guid: ae3fa946ad7a7be4e9b321a26e12d6ed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -174,6 +174,7 @@ MonoBehaviour:
   speed: 50
   stoppingDistance: 1
   retreatDistance: 1
+  shootDistance: 5
   startTimeBtwShots: 1
   isFacingRight: 0
   projectile: {fileID: 9089850520417343388, guid: 0e6b82de2d1bca74e9ce5060e4a003d1, type: 3}

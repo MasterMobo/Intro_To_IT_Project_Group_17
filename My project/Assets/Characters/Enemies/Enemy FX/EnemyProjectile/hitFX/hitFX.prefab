@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2799539809909860168}
   - component: {fileID: 3320030885038726552}
   - component: {fileID: 4735833599327015105}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Hitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 3016449630315183822}
   - component: {fileID: 6005958506549592691}
   - component: {fileID: 62774034}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: hitFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4255835709925927895}
   - component: {fileID: 4255835709925927889}
   - component: {fileID: 4255835709925927888}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: EnemyAttackHitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75,7 +75,7 @@ GameObject:
   - component: {fileID: 4255835710496016771}
   - component: {fileID: 4255835710496016770}
   - component: {fileID: 3972205440531152932}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Susanoo fire
   m_TagString: Untagged
   m_Icon: {fileID: 0}

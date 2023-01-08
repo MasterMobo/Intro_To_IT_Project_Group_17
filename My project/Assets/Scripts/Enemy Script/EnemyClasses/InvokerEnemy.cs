@@ -6,6 +6,7 @@ public class InvokerEnemy : DamageableCharacter {
     public float speed;
     public float stoppingDistance;
     public float retreatDistance;
+    public float attackDistance;
     public float startTimeBtwClone1;
     public float startTimeBtwClone2;
     public float startTimeBtwClone3;
@@ -112,71 +113,83 @@ public class InvokerEnemy : DamageableCharacter {
 
         
 
-        if (timeBtwShots <= 0)
+        if (Vector2.Distance(transform.position, player.position) <= attackDistance)
         {
-            animator.SetTrigger("attack");
-            IEnumerator Attack()
+            if (timeBtwShots <= 0)
             {
-                yield return new WaitForSeconds (1f);
-                Instantiate(projectile, transform.position, Quaternion.identity);
+                animator.SetTrigger("attack");
+                IEnumerator Attack()
+                {
+                    yield return new WaitForSeconds (1f);
+                    Instantiate(projectile, transform.position, Quaternion.identity);
+                }
+                
+                StartCoroutine(Attack());
+                timeBtwShots = startTimeBtwShots;
+            } else
+            {
+                timeBtwShots -= Time.deltaTime;
             }
-            
-            StartCoroutine(Attack());
-            timeBtwShots = startTimeBtwShots;
-        } else
-        {
-            timeBtwShots -= Time.deltaTime;
         }
 
-        if (timeBtwClone1 <= 0)
+        if (Vector2.Distance(transform.position, player.position) <= attackDistance)
         {
-            animator.SetTrigger("attack");
-            IEnumerator Clone1()
+            if (timeBtwClone1 <= 0)
             {
-                yield return new WaitForSeconds (1f);
-                Instantiate(clone1, transform.position, Quaternion.identity);
-                Instantiate(clone1, transform.position, Quaternion.identity);
-                Instantiate(clone1, transform.position, Quaternion.identity);
+                animator.SetTrigger("attack");
+                IEnumerator Clone1()
+                {
+                    yield return new WaitForSeconds (1f);
+                    Instantiate(clone1, transform.position, Quaternion.identity);
+                    Instantiate(clone1, transform.position, Quaternion.identity);
+                    Instantiate(clone1, transform.position, Quaternion.identity);
+                }
+                StartCoroutine(Clone1());
+                timeBtwClone1 = startTimeBtwClone1;
+            } else
+            {
+                timeBtwClone1 -= Time.deltaTime;
             }
-            StartCoroutine(Clone1());
-            timeBtwClone1 = startTimeBtwClone1;
-        } else
+        }
+        
+        if (Vector2.Distance(transform.position, player.position) <= attackDistance)
         {
-            timeBtwClone1 -= Time.deltaTime;
+            if (timeBtwClone2 <= 0)
+            {
+                animator.SetTrigger("attack");
+                IEnumerator Clone2()
+                {
+                    yield return new WaitForSeconds (1f);
+                    Instantiate(clone2, transform.position, Quaternion.identity);
+                    Instantiate(clone2, transform.position, Quaternion.identity);
+                    Instantiate(clone2, transform.position, Quaternion.identity);
+                }
+                StartCoroutine(Clone2());
+                timeBtwClone2 = startTimeBtwClone2;
+            } else
+            {
+                timeBtwClone2 -= Time.deltaTime;
+            }
         }
 
-        if (timeBtwClone2 <= 0)
+        if (Vector2.Distance(transform.position, player.position) <= attackDistance)
         {
-            animator.SetTrigger("attack");
-            IEnumerator Clone2()
+            if (timeBtwClone3 <= 0)
             {
-                yield return new WaitForSeconds (1f);
-                Instantiate(clone2, transform.position, Quaternion.identity);
-                Instantiate(clone2, transform.position, Quaternion.identity);
-                Instantiate(clone2, transform.position, Quaternion.identity);
-            }
-            StartCoroutine(Clone2());
-            timeBtwClone2 = startTimeBtwClone2;
-        } else
-        {
-            timeBtwClone2 -= Time.deltaTime;
-        }
-
-        if (timeBtwClone3 <= 0)
-        {
-            animator.SetTrigger("attack");
-            IEnumerator Clone3()
+                animator.SetTrigger("attack");
+                IEnumerator Clone3()
+                {
+                    yield return new WaitForSeconds (1f);
+                    Instantiate(clone3, transform.position, Quaternion.identity);
+                    Instantiate(clone3, transform.position, Quaternion.identity);
+                    Instantiate(clone3, transform.position, Quaternion.identity);
+                }
+                StartCoroutine(Clone3());
+                timeBtwClone3 = startTimeBtwClone3;
+            } else
             {
-                yield return new WaitForSeconds (1f);
-                Instantiate(clone3, transform.position, Quaternion.identity);
-                Instantiate(clone3, transform.position, Quaternion.identity);
-                Instantiate(clone3, transform.position, Quaternion.identity);
+                timeBtwClone3 -= Time.deltaTime;
             }
-            StartCoroutine(Clone3());
-            timeBtwClone3 = startTimeBtwClone3;
-        } else
-        {
-            timeBtwClone3 -= Time.deltaTime;
         }
         checkFlipDirection();
     }

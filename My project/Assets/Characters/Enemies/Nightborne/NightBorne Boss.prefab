@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2751682188422777536}
   - component: {fileID: 2751682188422777539}
   - component: {fileID: 1100248108062914278}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: NightBorne Boss
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -203,7 +203,7 @@ GameObject:
   - component: {fileID: 2751682189710512247}
   - component: {fileID: 2751682189710512245}
   - component: {fileID: 5499883619432908175}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: EnemyAttackHitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -264,7 +264,7 @@ GameObject:
   - component: {fileID: 2751682189982445631}
   - component: {fileID: 2751682189982445629}
   - component: {fileID: 2751682189982445628}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: DectectionZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}

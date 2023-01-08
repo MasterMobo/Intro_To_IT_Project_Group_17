@@ -6,7 +6,7 @@ public class RangedEnemy : DamageableCharacter {
     public float speed;
     public float stoppingDistance;
     public float retreatDistance;
-
+    public float shootDistance;
     private float timeBtwShots;
     public float startTimeBtwShots;
     public bool isFacingRight;
@@ -100,22 +100,25 @@ public class RangedEnemy : DamageableCharacter {
         }
 
         
-
-        if (timeBtwShots <= 0)
+        if (Vector2.Distance(transform.position, player.position) <= shootDistance)
         {
-            animator.SetTrigger("attack");
-            IEnumerator Attack()
+            if (timeBtwShots <= 0)
             {
-                yield return new WaitForSeconds (0.5f);
-                Instantiate(projectile, transform.position, Quaternion.identity);
+                animator.SetTrigger("attack");
+                IEnumerator Attack()
+                {
+                    yield return new WaitForSeconds (0.5f);
+                    Instantiate(projectile, transform.position, Quaternion.identity);
+                }
+                
+                StartCoroutine(Attack());
+                timeBtwShots = startTimeBtwShots;
+            } else
+            {
+                timeBtwShots -= Time.deltaTime;
             }
-            
-            StartCoroutine(Attack());
-            timeBtwShots = startTimeBtwShots;
-        } else
-        {
-            timeBtwShots -= Time.deltaTime;
         }
+        
         checkFlipDirection();
     }
     public void MoveTowards(Vector3 target)

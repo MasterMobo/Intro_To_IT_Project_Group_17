@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6425266231658898896}
   - component: {fileID: 6425266231658898899}
   - component: {fileID: 6425266231658898898}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: clone
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -203,7 +203,7 @@ GameObject:
   - component: {fileID: 6425266231661876788}
   - component: {fileID: 6425266231661876786}
   - component: {fileID: 6425266231661876789}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: EnemyAttackHitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -264,7 +264,7 @@ GameObject:
   - component: {fileID: 6425266231792494135}
   - component: {fileID: 6425266231792494133}
   - component: {fileID: 6425266231792494132}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: DectectionZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}

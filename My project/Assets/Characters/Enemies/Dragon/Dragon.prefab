@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 241626266}
   - component: {fileID: 241626268}
   - component: {fileID: 382976032}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: EnemyAttackHitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 6163077679737304164}
   - component: {fileID: 6163077679737304165}
   - component: {fileID: 2500239418664462549}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Dragon
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -157,8 +157,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1328219303
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -1993855923, guid: 325d5e0767eedc6419cb9dd239b07eac, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -279,7 +279,7 @@ GameObject:
   - component: {fileID: 1910575996693598844}
   - component: {fileID: 882165528873492744}
   - component: {fileID: 84335700}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: DectectionZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}

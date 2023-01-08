@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6233344439754505017}
   - component: {fileID: 4930403439114360055}
   - component: {fileID: -8475964109267518583}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SoulProjectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73,8 +73,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1328219303
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -1580620513, guid: b672814f42c41d64e99272768d8de662, type: 3}
   m_Color: {r: 0.16078432, g: 0.047537483, b: 0, a: 1}
