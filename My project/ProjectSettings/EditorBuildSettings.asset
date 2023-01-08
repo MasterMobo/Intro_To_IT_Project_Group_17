@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/DungeonHallway.unity
+    guid: 02d551b339cfff74e975794c33aabe1d
+  - enabled: 1
+    path: Assets/Scenes/Swamp.unity
+    guid: 491fa6aae47a37d43a4e54e24dd6ed65
   m_configObjects: {}
