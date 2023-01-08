@@ -40,6 +40,6 @@ public class Projectile : MonoBehaviour
         //Destroy(target.gameObject);
         Destroy(gameObject);
 
-        target.gameObject.GetComponent<Enemy>().OnHit(damage, knockback);
+        target.gameObject.GetComponent<DamageableCharacter>().OnHit(damage, knockback);
     }
 }

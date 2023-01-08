@@ -35,26 +35,21 @@ public class PlayerProjectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Enemy")
+        if (other.tag.Contains("Enemy"))
         {
-            if (currentPassThrough < weapon.passThrough)
-            {
-                // Calculate knockback force and apply damage to enemy
-                Vector2 knockback = weapon.player.mouseDirection * weapon.knockbackForce;
-                other.GetComponent<Enemy>().OnHit(weapon.damage, knockback);
-                currentPassThrough += 1;
-                
-                SpawnHitEffects();
-            }
-            else
-            {
-                Vector2 knockback = weapon.player.mouseDirection * weapon.knockbackForce;
-                other.GetComponent<Enemy>().OnHit(weapon.damage, knockback);
+            // Calculate knockback force and apply damage to enemy
+            Vector2 knockback = weapon.player.mouseDirection * weapon.knockbackForce;
+            other.GetComponent<DamageableCharacter>().OnHit(weapon.damage, knockback);
 
-           
-                SpawnHitEffects();
+            SpawnHitEffects();
+
+
+            if (currentPassThrough >= weapon.passThrough)
+            {
                 Destroy(gameObject);
             }
+
+            currentPassThrough += 1;
 
         }
 
@@ -63,48 +58,7 @@ public class PlayerProjectile : MonoBehaviour
             SpawnHitEffects();
             Destroy(gameObject);
         }
-        else if (other.tag == "RangedEnemy")
-        {
-            if (currentPassThrough < weapon.passThrough)
-            {
-                // Calculate knockback force and apply damage to enemy
-                Vector2 knockback = weapon.player.mouseDirection * weapon.knockbackForce;
-                other.GetComponent<Enemy>().OnHit(weapon.damage, knockback);
-                currentPassThrough += 1;
-                
-                SpawnHitEffects();
-            }
-            else
-            {
-                Vector2 knockback = weapon.player.mouseDirection * weapon.knockbackForce;
-                other.GetComponent<Enemy>().OnHit(weapon.damage, knockback);
 
-           
-                SpawnHitEffects();
-                Destroy(gameObject);
-            }
-        }
-        else if (other.tag == "InvokerEnemy")
-        {
-           if (currentPassThrough < weapon.passThrough)
-            {
-                // Calculate knockback force and apply damage to enemy
-                Vector2 knockback = weapon.player.mouseDirection * weapon.knockbackForce;
-                other.GetComponent<Enemy>().OnHit(weapon.damage, knockback);
-                currentPassThrough += 1;
-                
-                SpawnHitEffects();
-            }
-            else
-            {
-                Vector2 knockback = weapon.player.mouseDirection * weapon.knockbackForce;
-                other.GetComponent<Enemy>().OnHit(weapon.damage, knockback);
-
-           
-                SpawnHitEffects();
-                Destroy(gameObject);
-            }
-        }
     }
 
 }

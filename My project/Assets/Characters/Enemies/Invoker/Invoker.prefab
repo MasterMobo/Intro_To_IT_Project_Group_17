@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8774268717537552786}
   - component: {fileID: 8774268717537552787}
   - component: {fileID: 1108450812692908171}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Invoker
   m_TagString: InvokerEnemy
   m_Icon: {fileID: 0}
