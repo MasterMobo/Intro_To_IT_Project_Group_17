@@ -10,11 +10,13 @@ TagManager:
   - Consumable
   - Map
   - Node
+  - RangedEnemy
+  - InvokerEnemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - leaf
   - Water
   - UI
   - Player
@@ -50,7 +52,7 @@ TagManager:
   - name: Map
     uniqueID: 842383577
     locked: 0
-  - name: Objects
+  - name: Player
     uniqueID: 2966747993
     locked: 0
   - name: FX
