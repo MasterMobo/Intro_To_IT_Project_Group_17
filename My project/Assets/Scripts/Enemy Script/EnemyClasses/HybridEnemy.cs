@@ -72,9 +72,13 @@ public class HybridEnemy : Enemy
                 }
         if (timeBtwClones <= 0)
         {
-            Instantiate(clone, transform.position, Quaternion.identity);
-            Instantiate(clone, transform.position, Quaternion.identity);
-            timeBtwClones = startTimeBtwClones;
+                    if (clone != null)
+                    {
+                        Instantiate(clone, transform.position, Quaternion.identity);
+                        Instantiate(clone, transform.position, Quaternion.identity);
+                    }
+                    timeBtwClones = startTimeBtwClones;
+                
         } else
         {
             timeBtwClones -= Time.deltaTime;

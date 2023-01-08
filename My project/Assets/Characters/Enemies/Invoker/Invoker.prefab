@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1108450812692908171}
   m_Layer: 2
   m_Name: Invoker
-  m_TagString: InvokerEnemy
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
