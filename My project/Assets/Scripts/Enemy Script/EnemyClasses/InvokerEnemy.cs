@@ -60,6 +60,11 @@ public class InvokerEnemy : DamageableCharacter {
     // End death process (Usually an event in the death animation)
     public void EndDeath()
     {
+        DropLoot loot = GetComponentInParent<DropLoot>();
+        if (loot != null)
+        {
+            loot.SpawnLoot();
+        }
         Destroy(gameObject);
     }
     
