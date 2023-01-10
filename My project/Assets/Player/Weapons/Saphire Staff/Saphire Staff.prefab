@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0a6a7941fdcdea448ad80de0a7e9b74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 100
+  damage: 50
   knockbackForce: 100
   positionOffset: {x: 0, y: 0, z: 0}
   coolDown: 0.2
@@ -110,7 +110,7 @@ MonoBehaviour:
   spriteRenderer: {fileID: 0}
   animator: {fileID: 0}
   fireForce: 100
-  manaCost: 50
+  manaCost: 25
   projectile: {fileID: 5702587676528367080, guid: 6997cf7f325bb7a45adf69cc6a1319a3, type: 3}
 --- !u!50 &6073119543277035509
 Rigidbody2D:

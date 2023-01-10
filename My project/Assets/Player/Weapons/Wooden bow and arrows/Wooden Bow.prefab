@@ -100,10 +100,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19eca4a0b665b4541bd4ea1962b135e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 50
+  damage: 30
   knockbackForce: 50
   positionOffset: {x: 0, y: 0, z: 0}
-  coolDown: 0.2
+  coolDown: 0.5
   coolDownElapsed: 0
   isCoolingDown: 0
   passThrough: 0

@@ -187,7 +187,7 @@ MonoBehaviour:
   detectionZone: {fileID: 0}
   attackDistance: 0.6
   shootDistance: 15
-  enemyAttackDamage: 50
+  enemyAttackDamage: 20
   startTimeBtwClones: 3
   projectile: {fileID: 9089850520417343388, guid: 19aa2218edc121147a841eda9227637c, type: 3}
   clone: {fileID: 6425266231658898900, guid: ae301013d6ea33c4eaa64c86194f510f, type: 3}

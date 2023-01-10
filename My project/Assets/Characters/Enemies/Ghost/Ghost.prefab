@@ -167,15 +167,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49014036be34d3a478d148ad8102d90f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
-  _currentHealth: 10
+  maxHealth: 100
+  _currentHealth: 100
   armor: 1
   isAlive: 1
   speed: 80
   stoppingDistance: 1
   retreatDistance: 0.5
   shootDistance: 2.5
-  startTimeBtwShots: 1
+  startTimeBtwShots: 2.5
   isFacingRight: 0
   projectile: {fileID: 9089850520417343388, guid: fed9ce0d6326f354e994544a1b41950a, type: 3}
   animator: {fileID: 0}

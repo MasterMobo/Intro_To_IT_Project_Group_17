@@ -169,8 +169,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21a351da1b27a944eadec8fbb1844a41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 500
-  _currentHealth: 500
+  maxHealth: 200
+  _currentHealth: 200
   armor: 1
   isAlive: 1
   acceleration: 150
@@ -187,7 +187,7 @@ MonoBehaviour:
   detectionZone: {fileID: 0}
   attackDistance: 0.4
   shootDistance: 5
-  enemyAttackDamage: 50
+  enemyAttackDamage: 10
   startTimeBtwClones: 3
   projectile: {fileID: 9089850520417343388, guid: fed9ce0d6326f354e994544a1b41950a, type: 3}
   clone: {fileID: 6425266231658898900, guid: ae301013d6ea33c4eaa64c86194f510f, type: 3}
@@ -263,7 +263,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5867087933560381421}
-  - component: {fileID: 5867087933560381392}
   - component: {fileID: 5867087933560381423}
   - component: {fileID: 5867087933560381422}
   m_Layer: 2
@@ -288,18 +287,6 @@ Transform:
   m_Father: {fileID: 5867087932222571869}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5867087933560381392
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5867087933560381420}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50fab8d351136cd4287cab64cd8b84d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &5867087933560381423
 CircleCollider2D:
   m_ObjectHideFlags: 0

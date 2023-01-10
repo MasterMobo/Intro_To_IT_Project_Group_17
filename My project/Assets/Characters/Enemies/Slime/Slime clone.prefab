@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1673807724358253449}
   - component: {fileID: 3048843685683483852}
   - component: {fileID: 5535039968799564912}
+  - component: {fileID: -2905477074140360631}
   m_Layer: 2
   m_Name: Slime clone
   m_TagString: Enemy
@@ -158,8 +159,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 447321a2ef5335e4f97f3a581fb5c8b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
-  _currentHealth: 100
+  maxHealth: 20
+  _currentHealth: 20
   armor: 1
   isAlive: 1
   acceleration: 50
@@ -174,13 +175,29 @@ MonoBehaviour:
   spriteRenderer: {fileID: 0}
   player: {fileID: 0}
   detectionZone: {fileID: 0}
-  timedying: 1e+9
+  timedying: 7
   attackDistance: 0.4
   shootDistance: 5
-  enemyAttackDamage: 10
+  enemyAttackDamage: 2
   startTimeBtwClones: 0
   projectile: {fileID: 9089850520417343388, guid: d7aa9dd89f61b144585fe0a0ad8bb49b, type: 3}
   clone: {fileID: 0}
+--- !u!114 &-2905477074140360631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673807724358253442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cd8bb9e5090b984f8c895f5a08919af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lootPool: []
+  guaranteeDrop: []
+  goldDrop: 0
+  coinPrefab: {fileID: 0}
 --- !u!1001 &4502235118639744608
 PrefabInstance:
   m_ObjectHideFlags: 0

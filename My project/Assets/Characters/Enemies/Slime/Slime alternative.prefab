@@ -143,12 +143,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21a351da1b27a944eadec8fbb1844a41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 400
-  _currentHealth: 400
+  maxHealth: 60
+  _currentHealth: 60
   armor: 1
   isAlive: 1
   acceleration: 50
-  maxMovementSpeed: 70
+  maxMovementSpeed: 150
   movementLocked: 0
   isFacingRight: 0
   aggroDistance: 30
@@ -161,10 +161,10 @@ MonoBehaviour:
   detectionZone: {fileID: 0}
   attackDistance: 0.4
   shootDistance: 15
-  enemyAttackDamage: 40
+  enemyAttackDamage: 3
   startTimeBtwClones: 10
   projectile: {fileID: 9089850520417343388, guid: d7aa9dd89f61b144585fe0a0ad8bb49b, type: 3}
-  clone: {fileID: 1673807724358253442, guid: da456b56856c95c42841daa9b34aaf4a, type: 3}
+  clone: {fileID: 0}
 --- !u!61 &1430122854
 BoxCollider2D:
   m_ObjectHideFlags: 0

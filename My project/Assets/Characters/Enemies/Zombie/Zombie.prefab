@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6497391749777276359}
   - component: {fileID: 6497391749777276358}
   - component: {fileID: 6497391749777276361}
+  - component: {fileID: 1090022435840540830}
   m_Layer: 2
   m_Name: Zombie
   m_TagString: Enemy
@@ -169,8 +170,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b40fb4617b5b8143be6012683d07f7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 300
-  _currentHealth: 0
+  maxHealth: 50
+  _currentHealth: 50
   armor: 1
   isAlive: 1
   acceleration: 50
@@ -185,8 +186,24 @@ MonoBehaviour:
   spriteRenderer: {fileID: 0}
   player: {fileID: 0}
   detectionZone: {fileID: 0}
-  attackDistance: 0.5
-  enemyAttackDamage: 50
+  attackDistance: 0.3
+  enemyAttackDamage: 5
+--- !u!114 &1090022435840540830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6497391749777276360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cd8bb9e5090b984f8c895f5a08919af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lootPool: []
+  guaranteeDrop: []
+  goldDrop: 0
+  coinPrefab: {fileID: 0}
 --- !u!1 &6497391749803067891
 GameObject:
   m_ObjectHideFlags: 0

@@ -230,7 +230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b40fb4617b5b8143be6012683d07f7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 150
+  maxHealth: 50
   _currentHealth: 0
   armor: 1
   isAlive: 1
@@ -247,7 +247,7 @@ MonoBehaviour:
   player: {fileID: 0}
   detectionZone: {fileID: 0}
   attackDistance: 0.3
-  enemyAttackDamage: 50
+  enemyAttackDamage: 5
 --- !u!1 &7610324705657584378
 GameObject:
   m_ObjectHideFlags: 0

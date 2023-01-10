@@ -25,7 +25,7 @@ public class DropLoot : MonoBehaviour
         }
         for (int i = 0; i < guaranteeDrop.Count; i++)
         {
-            Instantiate(guaranteeDrop[Random.Range(0, lootPool.Count)], transform.position, Quaternion.identity);
+            Instantiate(guaranteeDrop[i], transform.position, Quaternion.identity);
         }
         if (goldDrop > 0)
         {

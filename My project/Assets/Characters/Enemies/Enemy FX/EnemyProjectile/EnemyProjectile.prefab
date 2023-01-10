@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  damage: 10
+  damage: 5
   projectileKnockbackForce: 5
   hitFX: {fileID: 1334449139735402711, guid: 924344fdb1c2a8848b924cda89d524bd, type: 3}
 --- !u!50 &6233344439754505017

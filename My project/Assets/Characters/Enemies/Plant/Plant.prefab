@@ -40,7 +40,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2984529257427094567}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -293,8 +293,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21a351da1b27a944eadec8fbb1844a41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
-  _currentHealth: 10
+  maxHealth: 30
+  _currentHealth: 30
   armor: 1
   isAlive: 1
   acceleration: 0
@@ -311,7 +311,7 @@ MonoBehaviour:
   detectionZone: {fileID: 0}
   attackDistance: 0.6
   shootDistance: 15
-  enemyAttackDamage: 50
-  startTimeBtwClones: 2
+  enemyAttackDamage: 3
+  startTimeBtwClones: 100000000
   projectile: {fileID: 9089850520417343388, guid: a743063cfc47c25439bd1a248f08067f, type: 3}
-  clone: {fileID: 0}
+  clone: {fileID: 9089850520417343388, guid: a743063cfc47c25439bd1a248f08067f, type: 3}

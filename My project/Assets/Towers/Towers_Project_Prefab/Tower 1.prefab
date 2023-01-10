@@ -78,9 +78,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1d41b0ed2f1f45aa80cbb5398a16abf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 100
-  knockbackForce: 100
-  range: 2.5
+  damage: 12
+  knockbackForce: 50
+  range: 2
   shootRate: 1
   enemyTag: Enemy
   partToRotate: {fileID: 3522261848317641858}
