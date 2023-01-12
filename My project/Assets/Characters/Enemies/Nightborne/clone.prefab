@@ -188,7 +188,7 @@ MonoBehaviour:
   timedying: 2
   attackDistance: 0.3
   shootDistance: 1.5
-  enemyAttackDamage: 25
+  enemyAttackDamage: 3
   startTimeBtwClones: 0
   projectile: {fileID: 9089850520417343388, guid: fed9ce0d6326f354e994544a1b41950a, type: 3}
   clone: {fileID: 0}
