@@ -1,5 +1,5 @@
 # Intro_To_IT_Project_Group_17
-Repository Netherheim game (Unity project)
+Repository for Netherheim game (Unity project)
 -----------------------------------------------------------------------------------------------------
 Please make sure to follow these points before making any changes:
   + Make changes only on your respective folders: Player, Enemies, Map (and Scences), Towers
