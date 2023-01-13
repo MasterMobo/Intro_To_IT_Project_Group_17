@@ -7,19 +7,24 @@ TagManager:
   - Enemy
   - CollisionObject
   - Weapon
+  - Consumable
+  - Map
+  - Node
+  - RangedEnemy
+  - InvokerEnemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - leaf
   - Water
   - UI
+  - Player
+  - Map
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Weather
+  - Canvas
   - 
   - 
   - 
@@ -44,9 +49,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Back Ground
+  - name: Map
     uniqueID: 842383577
     locked: 0
-  - name: Objects
+  - name: Player
     uniqueID: 2966747993
+    locked: 0
+  - name: FX
+    uniqueID: 2766143403
+    locked: 0
+  - name: weather
+    uniqueID: 87083761
     locked: 0

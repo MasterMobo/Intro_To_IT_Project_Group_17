@@ -5,10 +5,14 @@ using UnityEngine;
 public class Inventory : MonoBehaviour
 {
     Player player;
+    public int size = 4;
     public List<GameObject> inventory = new List<GameObject>();
 
+    public int gold;
+    
+
     GameObject selectedItem;
-    int selectedItemIndex = 0;
+    public int selectedItemIndex = 0;
 
     private void Start()
     {
@@ -26,12 +30,41 @@ public class Inventory : MonoBehaviour
         player.currentItem = selectedItem;
     }
 
-    public void ChangeItem()
+    public bool IsAvailable()
+    {
+        for (int i = 0; i < size; i++)
+        {
+            if (inventory[i] == null)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public void AddItem(GameObject item)
+    {
+        for (int i = 0; i < size; i++)
+        {
+            if (inventory[i] == null)
+            {
+                inventory[i] = item;
+                return;
+            }
+        }
+    }
+
+    public void RemoveCurrent()
+    {
+        inventory[selectedItemIndex] = null;
+    }
+
+    public void NextItem()
     {
         Destroy(selectedItem);
         selectedItemIndex++;
 
-        if (selectedItemIndex > inventory.Count - 1)
+        if (selectedItemIndex >= size)
         {
             selectedItemIndex = 0;
         }
@@ -42,6 +75,42 @@ public class Inventory : MonoBehaviour
             selectedItem.transform.parent = player.transform;
         }
     }
+
+    public void PreviousItem()
+    {
+        Destroy(selectedItem);
+        selectedItemIndex--;
+
+        if (selectedItemIndex < 0)
+        {
+            selectedItemIndex = size - 1;
+        }
+
+        if (inventory[selectedItemIndex] != null)
+        {
+            selectedItem = Instantiate(inventory[selectedItemIndex], player.transform.position, Quaternion.identity);
+            selectedItem.transform.parent = player.transform;
+        }
+    }
+
+    public void ChangeItem(int i)
+    {
+        if (i >= size)
+        {
+            return;
+        }
+        Destroy(selectedItem);
+
+        if (inventory[i] != null)
+        {
+            selectedItem = Instantiate(inventory[i], player.transform.position, Quaternion.identity);
+            selectedItem.transform.parent = player.transform;  
+        }
+
+        selectedItemIndex = i;
+    }
+
+    
 }
 
 

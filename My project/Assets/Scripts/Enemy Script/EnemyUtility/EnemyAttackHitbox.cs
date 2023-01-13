@@ -37,7 +37,7 @@ public class EnemyAttackHitbox : MonoBehaviour
         if (other.tag == "Player")
         {
             Vector2 dir = other.transform.position - gameObject.GetComponentInParent<Transform>().position;
-            Vector2 knockback = Vector3.Normalize(dir) * parent.enemyAttackKnockbackForce;
+            Vector2 knockback = Vector3.Normalize(dir) * parent.enemyKnockbackForce;
             other.GetComponent<Player>().OnHit(parent.enemyAttackDamage, knockback);
         }
     }

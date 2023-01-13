@@ -10,7 +10,6 @@ public class AttackingEnemy : Enemy
 
     public float attackDistance; // The range within which the enemy will attack
     public float enemyAttackDamage; // Damage of the attack (Note: different from enemyCollisionDamage) 
-    public float enemyAttackKnockbackForce; // Knockback force when enemy attacks other objects
 
     private void Start()
     {
@@ -19,7 +18,7 @@ public class AttackingEnemy : Enemy
         body = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         player = GameObject.FindWithTag("Player");
-        detectionZone = GetComponentInChildren<EnemyDetectionZone>();
+        detectionZone = GetComponentInChildren<DetectionZone>();
 
         InitializeHealth();
     }
@@ -46,20 +45,14 @@ public class AttackingEnemy : Enemy
                 {
                     StartAttack();
                 }
-
-                FlipXAccordingTo(player.transform.position - transform.position);
-            } else 
-            {
-                FlipXAccordingTo(body.velocity);
             }
 
-            
         }
 
         // If the velocity is not zero, start move animation
         animator.SetBool("isMoving", body.velocity != Vector2.zero);
 
-        
+        checkFlipDirection();
     }
 
 

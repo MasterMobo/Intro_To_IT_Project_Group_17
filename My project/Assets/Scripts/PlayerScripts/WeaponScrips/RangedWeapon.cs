@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class RangedWeapon : Weapon
 {
-    public float fireForce = 20f;
-    public int passThrough = 0; // How many objects the projectile can pass through before disappearing
+    public float fireForce;
+    
 
     public GameObject projectile;
 
@@ -22,11 +22,12 @@ public class RangedWeapon : Weapon
 
     private void FixedUpdate()
     {
-        RotateAccordingTo(player.mouseDirection);
-
-        UpdatePosition();
-
-        CheckCooldown();
+        if (transform.parent != null)
+        {
+            RotateAccordingTo(player.mouseDirection);
+            UpdatePosition();
+            CheckCooldown();
+        }
     }
 
 

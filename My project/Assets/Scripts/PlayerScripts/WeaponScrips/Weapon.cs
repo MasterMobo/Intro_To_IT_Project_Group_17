@@ -12,6 +12,8 @@ public class Weapon : MonoBehaviour
     public float coolDownElapsed = 0f;
     public bool isCoolingDown = false;
 
+    public int passThrough = 0; // How many objects the projectile can pass through before disappearing (only for ranged weapon)
+
     public Player player;
     public SpriteRenderer spriteRenderer;
     public Animator animator;

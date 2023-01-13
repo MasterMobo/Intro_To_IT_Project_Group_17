@@ -19,20 +19,23 @@ public class MeleeWeapon : Weapon
 
     private void FixedUpdate()
     {
-        RotateAccordingTo(player.mouseDirection);
+        if (transform.parent != null)
+        {
+            RotateAccordingTo(player.mouseDirection);
 
-        UpdatePosition();
+            UpdatePosition();
 
-        CheckCooldown();
+            CheckCooldown();
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Enemy")
+        if (other.tag.Contains("Enemy"))
         {
             // Calculate knockback force and apply damage to enemy
             Vector2 knockback = player.mouseDirection * knockbackForce;
-            other.GetComponent<Enemy>().OnHit(damage, knockback);
+            other.GetComponent<DamageableCharacter>().OnHit(damage, knockback);
         }
     }
 

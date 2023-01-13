@@ -112,7 +112,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1328219303
   m_SortingLayer: 2
-  m_SortingOrder: 3
+  m_SortingOrder: 12
   m_Sprite: {fileID: -1957173426, guid: d5618ddcca0bebc4c9763995bea424b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -136,5 +136,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd1c76c08f85bd640b8a1febc03f5cda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weapon: {fileID: 0}
+  isRotated: 0
+  weapon: {fileID: 5972060633311588137, guid: 2231eccad33c29c46ba91f9919e3e887, type: 3}
   hitFX: {fileID: 731396632044120120, guid: 02b971da93345694eb6b1886066fc198, type: 3}

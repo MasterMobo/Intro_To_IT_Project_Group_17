@@ -10,7 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3484603668618692989}
   - component: {fileID: 8256455993810737573}
-  - component: {fileID: 4065264704966250340}
+  - component: {fileID: 3448004418730520806}
+  - component: {fileID: 6073119543277035509}
+  - component: {fileID: 2065181145922292364}
   m_Layer: 0
   m_Name: Saphire Staff
   m_TagString: Weapon
@@ -73,7 +75,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1328219303
   m_SortingLayer: 2
-  m_SortingOrder: 2
+  m_SortingOrder: 12
   m_Sprite: {fileID: 21300000, guid: 5867fe66ad449a9419623dca43a0e752, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -85,7 +87,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4065264704966250340
+--- !u!114 &3448004418730520806
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -94,19 +96,55 @@ MonoBehaviour:
   m_GameObject: {fileID: 2633389288309071362}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19eca4a0b665b4541bd4ea1962b135e4, type: 3}
+  m_Script: {fileID: 11500000, guid: f0a6a7941fdcdea448ad80de0a7e9b74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 100
-  knockbackForce: 0
+  damage: 50
+  knockbackForce: 100
   positionOffset: {x: 0, y: 0, z: 0}
   coolDown: 0.2
   coolDownElapsed: 0
   isCoolingDown: 0
+  passThrough: 2
   player: {fileID: 0}
   spriteRenderer: {fileID: 0}
   animator: {fileID: 0}
   fireForce: 100
-  passThrough: 5
-  currentPassThrough: 0
+  manaCost: 25
   projectile: {fileID: 5702587676528367080, guid: 6997cf7f325bb7a45adf69cc6a1319a3, type: 3}
+--- !u!50 &6073119543277035509
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2633389288309071362}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 5
+  m_LinearDrag: 10
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &2065181145922292364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2633389288309071362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 509591ca01229514396c504affb54079, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  body: {fileID: 0}
+  pickupRange: 1
+  pullForce: 50

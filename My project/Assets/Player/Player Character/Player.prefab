@@ -15,6 +15,9 @@ GameObject:
   - component: {fileID: 4806166876373576412}
   - component: {fileID: 1983746832}
   - component: {fileID: 4806166876373576386}
+  - component: {fileID: 3106965547739291196}
+  - component: {fileID: 874572312492233056}
+  - component: {fileID: 487947434225980394}
   - component: {fileID: 7774381755007183626}
   m_Layer: 0
   m_Name: Player
@@ -153,7 +156,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.002907753, y: -0.09}
+  m_Offset: {x: 0.0010182261, y: -0.0743378}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -164,7 +167,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.17825246, y: 0.03630157}
+  m_Size: {x: 0.11076939, y: 0.021179333}
   m_EdgeRadius: 0
 --- !u!50 &1983746832
 Rigidbody2D:
@@ -204,21 +207,74 @@ MonoBehaviour:
   armor: 1
   knockbackResistance: 1
   isAlive: 1
+  mouseDirection: {x: -0.679042, y: -0.7340994, z: 0}
+  isFacingRight: 0
+  playerInput: {fileID: 3106965547739291196}
+  playerState: {fileID: 487947434225980394}
+  playerMovement: {fileID: 874572312492233056}
+  animator: {fileID: 0}
+  currentItem: {fileID: 0}
+  inventory: {fileID: 0}
+--- !u!114 &3106965547739291196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 310834501538786974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b995fae36bb09544b3c0a5ea555228a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 4806166876373576386}
+  movementInput: {x: 0, y: 0}
+  isRunningPressed: 0
+  isDashingPressed: 0
+--- !u!114 &874572312492233056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 310834501538786974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd5a6fe3eade26440983e99d2a106de2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 4806166876373576386}
   walkingSpeed: 10
-  runningSpeed: 20
+  runningSpeed: 15
   maxMovementSpeed: 20
-  dashForce: 220
+  dashForce: 200
+  dashTimeWindow: 0.1
+  dashTimeElapsed: 0
+  movementLocked: 0
+--- !u!114 &487947434225980394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 310834501538786974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 709a052e797b3ec4390ecd682e5c18b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 4806166876373576386}
   maxStamina: 100
-  _currentStamina: 0
+  _currentStamina: 100
   staminaRecoverySpeed: 0.5
   dashStaminaCost: 30
   runningStaminaCost: 2
-  leastStaminaToRun: 10
+  lowestStaminaToRun: 10
   recoveringFromZeroStamina: 0
-  invulnerableTimeWindow: 0.2
-  mouseDirection: {x: -0.679042, y: -0.7340994, z: 0}
-  isFacingRight: 0
-  currentItem: {fileID: 0}
+  invulnerableTimeWindow: 0.7
+  isInvulnerable: 0
+  maxMana: 100
+  _currentMana: 100
 --- !u!114 &7774381755007183626
 MonoBehaviour:
   m_ObjectHideFlags: 0
