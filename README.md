@@ -1,5 +1,5 @@
 # Intro_To_IT_Project_Group_17
-Repository for group 17's project for Intro To IT course
+Repository Netherheim game (Unity project)
 -----------------------------------------------------------------------------------------------------
 Please make sure to follow these points before making any changes:
   + Make changes only on your respective folders: Player, Enemies, Map (and Scences), Towers
