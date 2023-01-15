@@ -1,6 +1,13 @@
 # Intro_To_IT_Project_Group_17
 Repository for Netherheim game (Unity project)
 -----------------------------------------------------------------------------------------------------
+Welcome to our Unity game repository! 👋
+
+This is where the source code of our game is located and mangaged throughout the project
+
+Thankyou for your time!
+-----------------------------------------------------------------------------------------------------
+IMPORTANT NOTES FOR COLLABORATORS
 Please make sure to follow these points before making any changes:
   + Make changes only on your respective folders: Player, Enemies, Map (and Scences), Towers
   + All assest like sprites, prefabs and animations MUST be included within these four folders
