@@ -1,11 +1,13 @@
-# Intro_To_IT_Project_Group_17
+# Intro To IT Project - Group 17
 Repository for Netherheim game (Unity project)
 -----------------------------------------------------------------------------------------------------
 Welcome to our Unity game repository! 👋
 
 This is where the source code of our game is located and mangaged throughout the project
 
-Thankyou for your time!
+The game prototype can be downloaded from here: https://drive.google.com/file/d/1xklP9u5INBovBlEXhuPmLDB_UohvgE60/view
+
+Thank you for your time!
 
 -----------------------------------------------------------------------------------------------------
 IMPORTANT NOTES FOR COLLABORATORS
