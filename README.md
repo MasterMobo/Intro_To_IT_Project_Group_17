@@ -5,7 +5,7 @@ Welcome to our Unity game repository! 👋
 
 This is where the source code of our game is located and mangaged throughout the project
 
-The game prototype can be downloaded from here: https://drive.google.com/file/d/1xklP9u5INBovBlEXhuPmLDB_UohvgE60/view
+The game prototype can be downloaded from here (Windows only): https://drive.google.com/file/d/1xklP9u5INBovBlEXhuPmLDB_UohvgE60/view
 
 Thank you for your time!
 
